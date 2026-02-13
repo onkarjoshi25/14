@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Centered Button</title>
+
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #e7a8b2; /* pink background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button style */
+button {
+  font-size: 28px;
+  padding: 20px 45px;
+  border: none;
+  border-radius: 15px;
+  background: white;
+  color: #ff2e63;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 0 #c46b7a;
+}
+
+/* hover effect */
+button:hover {
+  background: #ffe6eb;
+  transform: translateY(-3px) scale(1.05);
+}
+
+/* click / touch effect */
+button:active {
+  transform: translateY(4px) scale(0.95);
+  box-shadow: 0 2px 0 #c46b7a;
+}
+</style>
+</head>
+
+<body>
+
+<button onclick="window.location.href='https://digibouquet.vercel.app/bouquet/142690e5-112d-458e-a28b-18354d50d580'">
+  Click Me
+</button>
+
+</body>
+</html>
